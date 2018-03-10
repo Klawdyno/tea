@@ -2,168 +2,164 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-
 }
 
-
 header {
-  z-index: 1;
-  position: fixed;
-  font-family: Helvetica;
-  font-size: 22px;
-  color: seashell;
-  background-color: black;
-  opacity: 0.9;
-  border-bottom: 1px solid seashell;
-  width: 100%;
-  height: 69px;
+	z-index: 1;
+	position: fixed;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	border-bottom: 1px solid seashell;
+	width: 100%;
+	height: 69px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-header img{
-  padding-left: 10px;
-  height: 50px;
+header img {
+	padding-left: 10px;
+	height: 50px;
 }
-a{
-  color:seashell;
+
+a {
+	color: seashell;
 }
 
 nav {
-  text-align: right;
-  flex-grow: 1;
+	text-align: right;
+	flex-grow: 1;
 }
 
 nav span {
-  display: inline-block;
-  padding: 20px 10px;
+	display: inline-block;
+	padding: 20px 10px;
 }
 
-.content{
-  position: relative;
-  top: 69px;
-  background-color: black;
-  font-family: Helvetica;
-  font-size: 22px;
-  color: seashell;
-  opacity: 0.9;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+.content {
+	position: relative;
+	top: 69px;
+	background-color: black;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	opacity: 0.9;
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
-.sections{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.sections {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
 .mission {
-  background-image: url("../images/img-mission-background.jpg");
-  height: 700px;
-  width: 1200px;
-  display: flex;
-  align-items: center;
+	background-image: url("../images/img-mission-background.jpg");
+	height: 700px;
+	width: 1200px;
+	display: flex;
+	align-items: center;
 }
 
-h2, h3, h4{
-  margin: 0px;
-  padding: 10px;
-  background-color: black;
+h2,
+h3,
+h4 {
+	margin: 0px;
+	padding: 10px;
+	background-color: black;
 }
 
-h5{
-  margin: 30px 0px;
+h5 {
+	margin: 30px 0px;
 }
 
-.group img{
-  height: 200px;
-  width: 300px;
+.group img {
+	height: 200px;
+	width: 300px;
 }
 
-.mission-items{
-  display:inline-block;
-  text-align: center;
-  width: 100%;
+.mission-items {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
 }
 
-.section2{
-  width: 1000px;
-  height: 770px;
-  margin: auto;
-  padding-top: 70px;
-  text-align: center;
+.section2 {
+	width: 1000px;
+	height: 770px;
+	margin: auto;
+	padding-top: 70px;
+	text-align: center;
 }
 
-.group-container{
-  display: flex;
-  justify-content:center;
-  flex-wrap: wrap;
-
+.group-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
-.group{
-  width: 300px;
-  height: 256px;
-  display: block;
-  margin: 0px 10px;
-  flex-wrap: wrap;
-  text-align: center;
-}
-.group span{
-  display: block;
-  margin-top: 10px;
+.group {
+	width: 300px;
+	height: 256px;
+	display: block;
+	margin: 0px 10px;
+	flex-wrap: wrap;
+	text-align: center;
 }
 
-
-.section3{
-  background-image: url("../images/img-locations-background.jpg");
-  height: 500px;
-  width: 1200px;
-  padding-top: 70px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-
+.group span {
+	display: block;
+	margin-top: 10px;
 }
 
-.section3 h2{
-  display: block;
-  background-color: transparent;
-  padding-bottom: 15px;
+.section3 {
+	background-image: url("../images/img-locations-background.jpg");
+	height: 500px;
+	width: 1200px;
+	padding-top: 70px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 }
 
-.box{
-  width: 300px;
-  background-color: black;
-  opacity: 1;
-  margin: 0px 20px;
-  text-align: center;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-
+.section3 h2 {
+	display: block;
+	background-color: transparent;
+	padding-bottom: 15px;
 }
 
-.box-container{
-  display: flex;
-  justify-content: center;
+.box {
+	width: 300px;
+	background-color: black;
+	opacity: 1;
+	margin: 0px 20px;
+	text-align: center;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
-.box p{
-  margin: 22px 0px;
+.box-container {
+	display: flex;
+	justify-content: center;
 }
 
-#contact{
-  height: 200px;
-  text-align: center;
+.box p {
+	margin: 22px 0px;
 }
 
+#contact {
+	height: 200px;
+	text-align: center;
+}
 
-footer{
-  display: block;
-  margin-left: 20px
+footer {
+	display: block;
+	margin-left: 20px
 }
